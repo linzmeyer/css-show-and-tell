@@ -1,15 +1,28 @@
-#the-box {
+body {
+  text-align: center;
+}
 
-  align-content: center;
+
+#the-circle {
+
+  /*Set size of element*/
   width: 300px;
   height: 300px;
 
+  /*Set the absolute position of the-box*/
+  position: absolute;
+  top: 10%;
+  left: 30%;
+
   /*  With borders, the width, color, and style can be simplified into one
   declaration.*/
-  border: 10px solid #000;
+  border: 40px double blue;
 
-  /*Same with the margin and padding*/
+  /*Same technique can be used with the margin and padding*/
   /*They are ordered by TRBL (top, right, bottom, left) "TROUBLE"*/
   margin: 100px 20px 50px 10px;
+  padding: 5px 10px 15px 20px;
 
+  /*Make my box round*/
+  border-radius: 300px;
 }
